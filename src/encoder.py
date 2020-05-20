@@ -108,9 +108,9 @@ class Encoder:
         return text
 
 try:
-  from tokenizers import Tokenizer, models, pre_tokenizers, decoders
-  use_high_speed_tokenizer = True
-  print('Using high-speed tokenizer')
+#  from tokenizers import Tokenizer, models, pre_tokenizers, decoders
+  use_high_speed_tokenizer = False
+#  print('Using high-speed tokenizer')
 except:
   use_high_speed_tokenizer = False
 
